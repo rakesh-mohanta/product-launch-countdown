@@ -4,7 +4,7 @@ Donate link:
 Tags: widget, count, counter, product, countdown
 Requires at least: 3.3
 Tested up to: 3.6
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,11 +29,19 @@ http://wordpress.org/extend/plugins/product-launch-countdown
 
 == Changelog ==
 
+= 1.1 =
+
+* Fixed ckeditor issue. Didn't notice it cos I had ckeditor installed.
+
 = 1.0 =
 
 * Initial Commit
 
 == Upgrade notice ==
+
+= 1.1 =
+
+* Fixed ckeditor issue. Didn't notice it cos I had ckeditor installed.
 
 = 1.0 =
 

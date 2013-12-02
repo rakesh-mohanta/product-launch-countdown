@@ -3,7 +3,7 @@
 Plugin Name: Product Launch Countdown Widgets
 Plugin URI: http://wordpress.org/extend/plugins/product-launch-countdown/
 Description: A wordpress widget that displays a product launch countdown.
-Version: 1.0
+Version: 1.1
 Author: TheOnlineHero - Tom Skroza
 License: GPL2
 */
@@ -43,8 +43,6 @@ function product_launch_countdown_admin_init() {
       wp_enqueue_style("jquery-ui-datepicker");
       wp_register_style("jquery-timepicker", plugins_url("/css/jquery.timepicker.css", __FILE__));
     wp_enqueue_style('jquery-timepicker');
-
-    include_ckeditor_with_jquery_js();
 }
 
 add_action('admin_init', 'product_launch_countdown_admin_init');
